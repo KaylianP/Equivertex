@@ -1,0 +1,76 @@
+body {
+    background-color: #032619; /* Dark Green */
+    margin: 0;
+}
+
+header {
+    background-color: #001a0d; /* Darker Green for Header */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #E2F263; /* Light Green */
+    text-align: center;
+    font-size: 4rem;
+    transition: color 0.5s ease-in-out, transform 0.5s ease-in-out;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1:hover {
+    color: #5CA651; /* Light Green */
+    transform: scale(1.05);
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #D2F25E; /* Yellow Green */
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.classroom-container {
+    justify-content: center;
+    background-color: #27592B; /* Green */
+    border: 5px dashed rgba(255, 255, 255, 0.682);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 40%;
+    height: 250px;
+    margin: 20px;
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.classroom-container:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.subject-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #E2F263; /* Light Green */
+}
+
+.subject-description {
+    font-size: 1rem;
+    text-align: center;
+    color: #5CA651; /* Light Green */
+    font-family: 'Montserrat', sans-serif;
+}
+
